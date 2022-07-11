@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+    object-fit: cover;
+}
+
+.header-image{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    top:-20vh;
+    z-index : -1;
+}
+
+.header-image img{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1rem;
+    margin: 0 40px;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav li{
+    margin-right: 10px;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.logo{
+    width: 20vw;
+}
+
+.head h3{
+    font-size: 2.0rem;
+    color: white;
+    font-weight: 500;
+}
+
+.searchbar{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    border-radius: 12px;
+    background: white;
+    padding:  5px 5px;
+}
+
+.searchbar .searchitm{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.searchbar .searchitm p{
+    color: gray;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.searchbar .searchitm input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.searchbar .searchitm:first-child{
+    color: pink;
+    width: 30%;
+    border-right: 1px solid gray;
+}
+
+.searchbar .searchitm:last-child{
+    color: gray;
+    width: 70%;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem ;
+}
+
+.section1 .section-1-item{
+    position: relative;
+    width: 15rem;
+    overflow: hidden;
+    border-radius: 20px;
+    border : 1px solid rgb(187, 186, 186);
+    margin-right: 10px;
+    text-align: center;
+}
+
+.section1 .section-1-item img{
+    width: 100%;
+    border-radius: 4px;
+    z-index: -1;
+}
+
+.section1 .section-1-item p{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    margin: 0px;
+    background-color: black;
+    padding: 5px;
+    z-index: 2;
+
+}
+
+.section-2-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-2-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-2 .section-2-container .section-2-items .section-2-item{
+
+width: 26%;
+margin: 20px 10px;
+border-radius: 8px;
+padding: 6px;
+box-shadow: 0 2px 4px rgb(214, 214, 214);
+}
+
+.section-2-item .title{
+color: rgb(104, 103, 103);
+font-size: 1.2rem;
+margin: 5px;
+}
+
+.section-2-item .item-dis{
+  font-weight: 600;
+  margin: 5px;
+}
+
+.section-3{
+    width: 100%;
+    background-color: rgb(255, 254, 250);
+    padding: 50px 0px;
+}
+
+.section-3 .section-3-container .section-3-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .section-3-container .section-3-items .section-3-image{
+    height: 400px;   
+}
+
+.section-3 .section-3-container .section-3-items .section-3-image img{
+    height: 100%;
+}
+
+.section-3-content h1{
+  font-size: 1.8rem;
+  font-style: oblique;
+  color: darkred;
+}
+
+.section-3-content p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: darkred;
+}
+
+footer i{
+    margin-left: 8px;
+}
